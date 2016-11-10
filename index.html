@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<script  src="lib/jquery-2.0.2.min.js" ></script>
+		<script  src="lib/angular.js" ></script>
+
+		<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="global.css" />
+		<script  src="Description.js" ></script>
+	</head>
+	<body ng-app="myApp" style="overflow-x:hidden" >
+		<div class="header-wrapper">
+			<header class="container-fluid">
+				<div class="row  main-header">
+					<div class="pull-right header-top">
+						<!--<span class="btn-warning">SELL</span>-->
+						<button type="button" class="btn btn-warning">SELL</button>
+						<span>ABOUT US</span>
+						<span>BLOG</span>
+						<span>CONTACT</span>
+						<span>INR</span>
+						<span>CART</span>
+						<button type="button" class="btn">SIGN IN</button>
+					</div>
+				</div>
+				<div class="row header-navbar">
+					<nav class="navbar navbar-default">
+						<div class="container-fluid collapse navbar-collapse">
+							<ul class="nav navbar-nav">
+								<li><a href="#">SAREES<span class="caret"></span></a></li>
+								<li><a href="#">JEWELLERY<span class="caret"></span></a></li>
+								<li><a href="#">BLOUSES</a></li>
+								<li><a href="#">DUPPATTA & STOLES</a></li>
+								<li><a href="#">FESTIVAL</a></li>
+								<li><a href="#">US FESTIVAL COLLECTIONS</a></li>
+								<li><a href="#">RECOMMENDED</a></li>
+								<li><button class="btn btn-info" style="margin-top:8px">SALE</button></li>
+							</ul>
+							<div class="input-group col-md-2 pull-right" style="margin-top:8px">
+							  <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
+							  <input type="text" class="form-control" placeholder="I'm looking for..">
+							</div>
+						</div>
+					</nav>
+				</div>
+			</header>
+		</div>
+		<div>
+			<product-description></product-description>
+		</div>
+		<div class="well col-md-12" style="margin-top:20px;margin-bottom:0px">
+			<div class="col-md-4 col-md-offset-4 label-similar" style="margin-bottom:30px">
+				<span class="col-md-2"><i class="glyphicon glyphicon-menu-left"></i></span>
+				<span class="col-md-8">SIMILAR PRODUCTS</span>
+				<span class="col-md-2"><i class="glyphicon glyphicon-menu-right"></i></span>
+			</div>
+		
+			<div class="col-md-12">
+				<ul class="list-inline">
+					<li class="col-md-4 ">
+						<div>
+							<img class="col-md-8" src="slices/Sante_Product_Detail_Page_p2_03.jpg" />
+							<div class="col-md-4" style="padding-left:0px">
+								<span class="highlight-font">SILK SAREE</span>
+								<span>While adding the hand embroidered accents and finishings...</span>
+								<span style="text-decoration:line-through" >Rs.5000</span>
+								<span class="highlight-font">Rs.4300</span>
+								<div>
+									<i class="glyphicon glyphicon-star"></i>
+									<i class="glyphicon glyphicon-star"></i>
+									<i class="glyphicon glyphicon-star"></i>
+									<i class="glyphicon glyphicon-star"></i>
+									<i class="glyphicon glyphicon-star-empty"></i>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="col-md-4">
+						<div>
+							<img class="col-md-8" src="slices/Sante_Product_Detail_Page_p2_05.jpg" />
+							<div class="col-md-4" style="padding-left:0px">
+								<span class="highlight-font">BANARAS SAREE</span>
+								<span>While adding the hand embroidered accents and finishings...</span>
+								<span style="text-decoration:line-through" >Rs.5000</span>
+								<span class="highlight-font">Rs.4300</span>
+								<div>
+									<i class="glyphicon glyphicon-star"></i>
+									<i class="glyphicon glyphicon-star"></i>
+									<i class="glyphicon glyphicon-star"></i>
+									<i class="glyphicon glyphicon-star"></i>
+									<i class="glyphicon glyphicon-star-empty"></i>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="col-md-4">
+						<div>
+							<img class="col-md-8" src="slices/Sante_Product_Detail_Page_p2_07.jpg" />
+							<div class="col-md-4" style="padding-left:0px">
+								<span class="highlight-font">COOL COTTON SAREE</span>
+								<span>While adding the hand embroidered accents and finishings...</span>
+								<span style="text-decoration:line-through" >Rs.5000</span>
+								<span class="highlight-font">Rs.4300</span>
+								<div>
+									<i class="glyphicon glyphicon-star"></i>
+									<i class="glyphicon glyphicon-star"></i>
+									<i class="glyphicon glyphicon-star"></i>
+									<i class="glyphicon glyphicon-star"></i>
+									<i class="glyphicon glyphicon-star-empty"></i>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<footer class="footer-content col-md-12">
+			<div class="pull-left well-sm about-footer">
+				<span>ABOUT US</span>
+				<span>VIEW ALL</span>
+				<span>COLLECTIONS</span>
+				<span>CONTACT US</span>
+				<span>BLOG</span>
+			</div>
+			<div class="pull-right well-sm about-footer">
+				<span>TERMS & CONDITIONS</span>
+				<span>PRIVACY POLICY</span>
+				<span>REFUND POLICY</span>
+				<span>VENDOR TERMS & CONDITIONS</span>
+			</div>
+		</footer>
+	<body>
+</html>
